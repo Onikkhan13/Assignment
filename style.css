@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url(image2.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 200%;
+    font-weight: bold;
+}
+.content p{
+    font-weight: 50px;
+    line-height: 25px;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+}
